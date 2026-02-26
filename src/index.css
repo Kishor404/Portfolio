@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+/* Normal Sections */
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background: #0f0f0f;
+  color: white;
+}
+
+.about {
+  background: #151515;
+  color: white;
+}
+
+/* Transition Scene */
+
+.transition {
+  height: 100vh;
+  position: relative;
+  background: #0b0b0b;
+  overflow: hidden;
+}
+
+/* Morphing ABOUT card */
+
+.about-morph {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1f1f1f;
+  padding: 60px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+/* Laptop Left */
+
+.laptop {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  width: 45vw;
+  height: 80vh;
+}
+
+/* Right Text */
+
+.side-text {
+  position: absolute;
+  right: 8%;
+  top: 35%;
+  color: white;
+  width: 30vw;
+}
